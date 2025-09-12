@@ -3,7 +3,7 @@
 
 `Name: Alistaire Noiprasit`
 
-<!-- INSERT CI PYTEST STATUS HERE -->
+[![Run Pytest](https://github.com/alistairenoiprasit/cse3150_week_3_hw/actions/workflows/pytest.yaml/badge.svg)](https://github.com/alistairenoiprasit/cse3150_week_3_hw/actions/workflows/pytest.yaml)
 
 I declare that:
 - this assessment item is my own work, except where acknowledged, and has not been submitted for
