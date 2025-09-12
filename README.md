@@ -1,5 +1,5 @@
-# cse3150-template
-`Homework/Lab Week: `
+# cse3150 hw03
+`Homework Week: 3`
 
 `Name: Alistaire Noiprasit`
 
@@ -16,8 +16,8 @@ Misconduct.
 > This work is NOT ready for submission as of `Day XX MONTH 2025`. <br>
 -->
 > [!IMPORTANT]
-> This work is NOT ready for submission as of `<insert date>`. <br>
-> The final due date is `<insert date>`.
+> This work is NOT ready for submission as of `12 Sep 2025`. <br>
+> The final due date is `18 Sep 2025`.
 
 SIGNED: ALISTAIRE NOIPRASIT
 
