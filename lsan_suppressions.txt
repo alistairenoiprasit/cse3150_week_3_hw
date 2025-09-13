@@ -1,0 +1,8 @@
+# Create a suppressions file
+cat > lsan_suppressions.txt << 'EOF'
+# Suppress known macOS system leaks
+leak:_fetchInitializingClassList
+leak:_libxpc_initializer
+leak:libSystem_initializer
+leak:_xpc_collect_images
+EOF
