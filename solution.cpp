@@ -120,7 +120,6 @@ void avgStudentsGPAFacade(const double gpas[], int& size) {
 // ////////////////////////// //
 //         GPA Utils          //
 // ////////////////////////// //
-// TODO: implement addStudent
 using namespace GPAUtils;
 void GPAUtils::addStudent(char* name, double gpa, char* names[], double
     gpas[], int& size, int capacity) {
@@ -129,16 +128,14 @@ void GPAUtils::addStudent(char* name, double gpa, char* names[], double
     size++;
 }
 
-// TODO: implement updateGPA
 void GPAUtils::updateGPA(double* gpaPtr, double newGpa) {
     *gpaPtr = newGpa;
 }
-// TODO: implement printStudent
+
 void GPAUtils::printStudent(const char* name, const double& gpa) {
     cout << "Student: \"" << name << "\" GPA: " << gpa << std::endl;
 }
 
-// TODO: implement averageGPA
 double GPAUtils::averageGPA(const double gpas[], int size) {
     double sum = 0;
     for (int i = 0; i < size; i++) {
@@ -225,7 +222,6 @@ int main(int argc, char* argv[]) {
         }
     } while (choice != 5);
 
-    // TODO: free memory
     for (int i = 0; i < size; i++) {
         free(names[i]);
     }
