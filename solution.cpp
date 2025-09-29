@@ -31,7 +31,7 @@ char* getName() {
     string temp;
     std::cin >> temp;
 
-    char* name = new char[temp.size() + 1];
+    char* name = (char*)malloc(temp.size() + 1);
     strcpy(name, temp.c_str());
     return name;
 }
