@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <cstring>   // for strlen, strcpy
+#include <cstdlib>
 
 namespace GPAUtils {
     void addStudent(char* name, double gpa, char* names[], double
