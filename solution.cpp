@@ -33,7 +33,7 @@ char* getName() {
     std::cin >> temp;
 
     char* name = (char*)malloc(temp.size() + 1);
-    strcpy(name, temp.c_str());
+    std::strcpy(name, temp.c_str());
     return name;
 }
 
@@ -56,8 +56,8 @@ void setGPA(double gpa, double
 }
 
 void setName(char* name, char* names[], int id) {
-    names[id] = (char*)malloc(strlen(name) + 1);
-    strcpy(names[id], name);
+    names[id] = (char*)malloc(std::strlen(name) + 1);
+    std::strcpy(names[id], name);
 }
 
 void printErrorMsg(const char* msg) {
