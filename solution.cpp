@@ -174,10 +174,19 @@ int main(int argc, char* argv[]) {
             if (std::cin.eof()) {
                 break;
             } else {
-                std::cout << "Program terminating to prevent infinite looping. Something went wrong!" << std::endl;
-                printErrorMsg("Menu input was not an integer.");
-                return 1;
-            }
+                // AI declaration
+                // I used AI to figure out how to clear the cin
+                // when it was given invalid values.
+                // previously it was returning infinite loops
+                // so I stopped the program on bad input
+                std::cin.clear();
+                std::string junk;
+                std::cin >> junk; // consume bad token
+                std::cout << "Invalid choice\n";
+                continue;
+                // End of AI Declaration
+}
+
         }
 
         switch (choice) {
